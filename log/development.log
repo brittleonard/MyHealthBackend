@@ -1,0 +1,40 @@
+  [1m[35m (265.9ms)[0m  [1m[35mCREATE DATABASE "myhealth_development" ENCODING = 'unicode'[0m
+  [1m[35m (114.3ms)[0m  [1m[35mCREATE DATABASE "myhealth_test" ENCODING = 'unicode'[0m
+Started GET "/posts" for ::1 at 2021-02-15 20:18:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-17 16:26:59 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-17 16:34:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-17 16:40:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/" for ::1 at 2021-02-17 16:41:05 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.9ms | Allocations: 181)
+Completed 200 OK in 18ms (Views: 9.9ms | Allocations: 1965)
+
+
+Started GET "/" for ::1 at 2021-02-17 17:58:20 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.0ms | Allocations: 179)
+Completed 200 OK in 18ms (Views: 13.2ms | Allocations: 721)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-02-17 17:58:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/home" for ::1 at 2021-02-17 17:58:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
