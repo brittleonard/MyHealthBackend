@@ -4,8 +4,8 @@ class Post
   # if heroku, use heroku psql db
   # --------------------------------------------------
   # if statement shouldn't require change
-  if (ENV['DATABASE_URL'])
-    uri = URI.parse(ENV['DATABASE_URL'])
+  if (ENV['https://womenshealth-backend.herokuapp.com/'])
+    uri = URI.parse(ENV['https://womenshealth-backend.herokuapp.com/'])
     DB = PG.connect(uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password)
   # --------------------------------------------------
 
@@ -14,7 +14,7 @@ class Post
     DB = PG.connect(
       host: "localhost",
       port: 5432,
-      dbname: 'posts')
+      dbname: 'myhealth_development')
   end
 
   def initialize(opts = {})

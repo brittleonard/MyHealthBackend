@@ -553,3 +553,163 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
 
 
+Started GET "/posts" for ::1 at 2021-02-23 14:27:57 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 530)
+
+
+  
+PG::ConnectionBad (FATAL:  database "posts" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "myhealth_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "myhealth_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "myhealth_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE DATABASE "myhealth_test" ENCODING = 'unicode'[0m
+Started GET "/posts" for ::1 at 2021-02-23 14:37:23 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 530)
+
+
+  
+PG::ConnectionBad (FATAL:  database "posts" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:37:25 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 249)
+
+
+  
+PG::ConnectionBad (FATAL:  database "posts" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:37:49 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 530)
+
+
+  
+PG::ConnectionBad (FATAL:  database "post" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:40:25 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 531)
+
+
+  
+PG::ConnectionBad (FATAL:  database "womenshealth-backend" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:40:50 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 22ms (Allocations: 529)
+
+
+  
+PG::ConnectionBad (FATAL:  database "womenshealth-backend" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:41:44 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 532)
+
+
+  
+PG::ConnectionBad (FATAL:  database "womenshealth-backend" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Posts>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:42:05 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 596)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:1: syntax error, unexpected '-'
+class Womenshealth-backend
+                  ^
+):
+  
+app/models/post.rb:1: syntax error, unexpected '-'
+app/models/post.rb:1: syntax error, unexpected '-'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:42:18 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 529)
+
+
+  
+PG::ConnectionBad (FATAL:  database "womenshealth-backend" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:42:47 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 523)
+
+
+  
+PG::ConnectionBad (FATAL:  database "womenshealth-backend" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:42:49 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 1321)
+
+
+  
+PG::ConnectionBad (FATAL:  database "womenshealth-backend" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:46:57 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 25ms (Allocations: 1321)
+
+
+  
+PG::ConnectionBad (FATAL:  database "womenshealth-backend" does not exist
+):
+  
+app/models/post.rb:14:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-23 14:54:26 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | Allocations: 837)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 14:55:17 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | Allocations: 841)
+
+
