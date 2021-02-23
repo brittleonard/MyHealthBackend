@@ -713,3 +713,420 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 8ms (Views: 0.4ms | Allocations: 841)
 
 
+Started GET "/posts" for ::1 at 2021-02-23 16:06:55 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.3ms | Allocations: 844)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 16:07:00 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 16:07:04 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 16:07:06 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 16:07:07 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:10 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:40 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:41 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:41 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-23 16:07:46 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:52 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:52 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:53 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:56 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-23 16:07:57 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-23 16:07:59 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 16:10:11 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 16:10:17 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:10:59 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:11:01 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:12:47 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:13:37 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:14:21 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:15:01 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 16:15:03 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:16:32 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:16:36 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 5ms (Views: 1.6ms | Allocations: 385)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:17:34 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:18:51 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:23:19 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:23:33 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 385)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:23:34 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:23:51 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:19 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:20 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:20 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:21 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:21 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:22 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:27 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:30 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:31 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:41 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:41 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:41 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:42 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:42 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:43 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 16:34:44 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/posts/" for ::1 at 2021-02-23 16:35:05 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 385)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:36:03 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:36:06 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:36:14 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:36:33 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:39:01 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 14ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:39:23 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:42:36 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:42:45 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:43:09 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:43:52 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 385)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:44:08 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:47:24 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:48:44 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:49:26 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:49:44 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:50:24 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:52:57 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:53:28 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:53:46 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 16:55:01 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 17:15:21 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 17:35:35 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 17:36:22 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.3ms | Allocations: 763)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 17:39:19 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 385)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 17:39:21 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 12ms (Views: 0.3ms | Allocations: 384)
+
+
+  [1m[35m (14.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5157361267011646035)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-02-23 23:43:55.378066"], ["updated_at", "2021-02-23 23:43:55.378066"]]
+  [1m[36mTRANSACTION (17.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5157361267011646035)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/posts/" for ::1 at 2021-02-23 17:47:32 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.5ms | Allocations: 534)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 17:47:33 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 17:48:06 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 17:48:12 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 17:48:13 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts/" for ::1 at 2021-02-23 17:48:14 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/posts/" for ::1 at 2021-02-23 17:48:16 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 17:48:17 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 17:48:22 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 17:55:00 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 22ms (Views: 0.3ms | Allocations: 536)
+
+
+Started GET "/posts" for ::1 at 2021-02-23 17:55:02 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts/" for ::1 at 2021-02-23 17:55:47 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 384)
+
+

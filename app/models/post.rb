@@ -1,29 +1,6 @@
 class Post
-  attr_reader :id, :name, :date, :details, :image
-
-  # if heroku, use heroku psql db
-  # --------------------------------------------------
-  # if statement shouldn't require change
-  if (ENV['https://womenshealth-backend.herokuapp.com/'])
-    uri = URI.parse(ENV['https://womenshealth-backend.herokuapp.com/'])
-    DB = PG.connect(uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password)
-  # --------------------------------------------------
-
-  # else, use local psql db
-  else
-    DB = PG.connect(
-      host: "localhost",
-      port: 5432,
-      dbname: 'myhealth_development')
-  end
-
-  def initialize(opts = {})
-    @id = opts["id"].to_i
-    @name = opts["name"]
-    @date = opts["date"]
-    @details = opts["details"]
-    @image = opts["image"]
-  end
+    # connect to postgres
+    DB = PG.connect({:host => "localhost", :port => 5432, :dbname => 'myhealth_development'})
 
    def self.all
       results = DB.exec("SELECT * FROM posts;")
