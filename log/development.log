@@ -38,3 +38,422 @@ Started GET "/home" for ::1 at 2021-02-17 17:58:21 -0600
   
 ActionController::RoutingError (No route matches [GET] "/home"):
   
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE DATABASE "myhealth_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "myhealth_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2021-02-22 14:33:28 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.7ms | Allocations: 295)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2279)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-02-22 14:33:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:33:34 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:34:30 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:34:30 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:34:55 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:34:55 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:40:02 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:41:07 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/" for ::1 at 2021-02-22 14:42:42 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/brittanyleonard/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 182)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 1569)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 14:42:46 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/post" for ::1 at 2021-02-22 14:42:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/post"):
+  
+Started GET "/posts/1" for ::1 at 2021-02-22 14:42:53 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts/1" for ::1 at 2021-02-22 14:45:57 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:46:01 -0600
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/posts" for ::1 at 2021-02-22 14:51:24 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 253)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:25: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 14:51:57 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 210)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:15: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:15: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:15: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 14:52:32 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | Allocations: 466)
+
+
+Started POST "/posts" for ::1 at 2021-02-22 16:03:09 -0600
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/posts" for ::1 at 2021-02-22 16:03:41 -0600
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/posts" for ::1 at 2021-02-22 16:04:14 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1490)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:50: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:04:37 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 409)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:48: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:07:01 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 519)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:07:02 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 513)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:67: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:67: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:07:27 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 518)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:07:28 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 508)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts/1" for ::1 at 2021-02-22 16:07:55 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 5ms (Allocations: 1585)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:9:in `show'
+Started GET "/posts" for ::1 at 2021-02-22 16:08:44 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 517)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:09:49 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 517)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:09:50 -0600
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 508)
+
+
+  
+SyntaxError (/Users/brittanyleonard/dev/MyHealth/MyHealthBackend/app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/models/post.rb:66: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:5:in `index'
+Started GET "/posts" for ::1 at 2021-02-22 16:10:23 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.2ms | Allocations: 587)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:10:29 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 197)
+
+
+Started POST "/posts" for ::1 at 2021-02-22 16:10:44 -0600
+Processing by PostsController#create as */*
+  Parameters: {"name"=>"Self care day", "date"=>"2/20/2021", "details"=>"I had a self care day today where I lit some palo santo wood and I cleansed my energy and spirit after a rough week. I feel better and ready to take on this upcoming week", "image"=>"https://cdn.shopify.com/s/files/1/0274/4261/0309/products/B_9dacae39-0975-4fbd-884b-35d4c9982c88_1100x.jpg?v=1607976424", "post"=>{"name"=>"Self care day", "date"=>"2/20/2021", "details"=>"I had a self care day today where I lit some palo santo wood and I cleansed my energy and spirit after a rough week. I feel better and ready to take on this upcoming week", "image"=>"https://cdn.shopify.com/s/files/1/0274/4261/0309/products/B_9dacae39-0975-4fbd-884b-35d4c9982c88_1100x.jpg?v=1607976424"}}
+Completed 200 OK in 15ms (Views: 0.2ms | Allocations: 225)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:10:49 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 260)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:21:13 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 260)
+
+
+Started POST "/posts" for ::1 at 2021-02-22 16:31:42 -0600
+Processing by PostsController#create as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a god day.", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a god day."}}
+Completed 200 OK in 12ms (Views: 0.1ms | Allocations: 220)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:31:51 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 322)
+
+
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:32:59 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day."}}
+Completed 500 Internal Server Error in 32ms (Allocations: 128)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started GET "/posts/4" for ::1 at 2021-02-22 16:33:07 -0600
+Processing by PostsController#show as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day."}}
+Completed 200 OK in 4ms (Views: 0.1ms | Allocations: 184)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:33:11 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 322)
+
+
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:34:11 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day."}}
+Completed 500 Internal Server Error in 0ms (Allocations: 136)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:34:37 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>nil, "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>nil}}
+Completed 500 Internal Server Error in 0ms (Allocations: 131)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:35:34 -0600
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"4", "name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>nil, "post"=>{"id"=>"4", "name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>nil}}
+Completed 500 Internal Server Error in 19ms (Allocations: 133)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:35:56 -0600
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"4", "name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>nil, "post"=>{"id"=>"4", "name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>nil}}
+Completed 500 Internal Server Error in 0ms (Allocations: 133)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:36:39 -0600
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"4", "name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" ", "post"=>{"id"=>"4", "name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" "}}
+Completed 500 Internal Server Error in 0ms (Allocations: 134)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:36:49 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" ", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" "}}
+Completed 500 Internal Server Error in 0ms (Allocations: 131)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:37:35 -0600
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 0ms (Allocations: 108)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:37:47 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" ", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" "}}
+Completed 500 Internal Server Error in 0ms (Allocations: 131)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:37:53 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" ", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" "}}
+Completed 500 Internal Server Error in 0ms (Allocations: 131)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:38:51 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" ", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" "}}
+Completed 500 Internal Server Error in 16ms (Allocations: 140)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/models/post.rb:51:in `update'
+app/controllers/posts_controller.rb:23:in `update'
+Started PUT "/posts/4" for ::1 at 2021-02-22 16:39:21 -0600
+Processing by PostsController#update as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" ", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" "}}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 239)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:39:33 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | Allocations: 384)
+
+
+Started DELETE "/posts/4" for ::1 at 2021-02-22 16:39:46 -0600
+Processing by PostsController#delete as */*
+  Parameters: {"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" ", "id"=>"4", "post"=>{"name"=>"Period Day 4", "date"=>"02/18/2021", "details"=>"Last day of period, cramps were pretty much gone today and my eating has gone back to normal. Energy was higher today and I am feeling more active. Mood was stable today. Today was a good day.", "image"=>" "}}
+Completed 200 OK in 5ms (Views: 0.1ms | Allocations: 97)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:39:49 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 322)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 16:41:55 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.4ms | Allocations: 322)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 18:05:17 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | Allocations: 322)
+
+
