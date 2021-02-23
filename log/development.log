@@ -457,3 +457,99 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 2ms (Views: 1.0ms | Allocations: 322)
 
 
+Started GET "/posts" for ::1 at 2021-02-22 18:56:17 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.2ms | Allocations: 322)
+
+
+Started OPTIONS "/posts" for ::1 at 2021-02-22 18:56:39 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-22 18:56:40 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-22 19:01:26 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 322)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 19:07:33 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 322)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 19:08:16 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.2ms | Allocations: 322)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 19:08:18 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 322)
+
+
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:08:20 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:08:22 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:08:22 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:08:23 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:08:25 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:08:26 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:10:39 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-22 19:23:35 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.5ms | Allocations: 325)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 19:23:40 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 322)
+
+
+Started OPTIONS "/posts" for ::1 at 2021-02-22 19:26:30 -0600
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/posts" for ::1 at 2021-02-22 19:26:58 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 322)
+
+
+Started POST "/posts" for ::1 at 2021-02-22 19:29:57 -0600
+Processing by PostsController#create as */*
+  Parameters: {"name"=>"Period Day 3", "date"=>"02/17/2021", "details"=>"Third day of period, cramps were much better today and most of my cravings were back to normal, though i was craving sweets in the evening. Energy was higher today, almost back to normal. Mood was more stable today. Today was a good day.", "post"=>{"name"=>"Period Day 3", "date"=>"02/17/2021", "details"=>"Third day of period, cramps were much better today and most of my cravings were back to normal, though i was craving sweets in the evening. Energy was higher today, almost back to normal. Mood was more stable today. Today was a good day."}}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 218)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 19:30:06 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.3ms | Allocations: 384)
+
+
+Started GET "/posts" for ::1 at 2021-02-22 20:45:05 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 384)
+
+
