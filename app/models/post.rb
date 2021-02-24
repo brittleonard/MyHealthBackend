@@ -1,6 +1,29 @@
 class Post
-    # connect to postgres
-    DB = PG.connect({:host => "localhost", :port => 5432, :dbname => 'myhealth_development'})
+  attr_reader :id, :name, :date, :details, :image
+
+  # if heroku, use heroku psql db
+  # --------------------------------------------------
+  # if statement shouldn't require change
+  if (ENV['DATABASE_URL'])
+    uri = URI.parse(ENV['DATABASE_URL'])
+    DB = PG.connect(uri.hostname, uri.port, nil, nil, uri.path[1..-1], uri.user, uri.password)
+  # --------------------------------------------------
+
+  # else, use local psql db
+  else
+    DB = PG.connect(
+      host: "localhost",
+      port: 5432,
+      dbname: 'myhealth_development')
+  end
+
+  def initialize(opts = {})
+    @id = opts["id"].to_i
+    @name = opts["name"]
+    @date = opts["date"]
+    @details = opts["details"]
+    @image = opts["image"]
+  end
 
    def self.all
       results = DB.exec("SELECT * FROM posts;")
@@ -51,8 +74,9 @@ class Post
    def self.update(id, opts)
       results = DB.exec(
          <<-SQL
-            INSERT INTO posts (name, date, details, image)
-            VALUES ( '#{opts["name"]}', '#{opts["date"]}', '#{opts["details"]}', '#{opts["image"]}' )
+            UPDATE posts
+            SET name='#{opts["name"]}', date='#{opts["date"]}', details='#{opts["details"]}', image='#{opts["image"]}'
+            WHERE id=#{id}
             RETURNING id, name, date, details, image ;
          SQL
       )
