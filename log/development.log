@@ -1595,3 +1595,17 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 8ms (Views: 0.6ms | Allocations: 408)
 
 
+Started GET "/posts" for ::1 at 2021-02-23 20:54:41 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 3ms (Views: 1.3ms | Allocations: 409)
+
+
+Started GET "/posts/babel/parser/lib/index.js" for 127.0.0.1 at 2021-02-23 21:05:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/posts/babel/parser/lib/index.js"):
+  
+Started GET "/posts" for ::1 at 2021-02-23 21:08:12 -0600
+Processing by PostsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 408)
+
+
